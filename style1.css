@@ -1,0 +1,16 @@
+.h1 {
+    text-align: center;
+}
+.container{
+    border: 2px solid black;
+    box-shadow: 1px 1px 2px #a8a8a8;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+.Refresh{
+text-align: center;
+}
+.TimeOn{
+text-align: center;
+}
