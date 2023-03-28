@@ -6,10 +6,16 @@
     <!-- TODO: Create your JavaScript file and include it here -->
     <script src="dateobject.js "></script>
 </head>
-<body>
+<body onload="getTimeDay()">
 
 <!-- TODO: Call functions for current day and current time (from the JS file) here -->
-
+<div class="container">
+<h1 id="day">Today is: </h1>
+<h1 id="time">The time: </h1>
+</div>
+<div><h1 id="refresh" onclick="refresh()">Refresh</h1></div>
+<div><h1 id="timeon">Time on page</h1></div>
 <!-- TODO: Add links for time on page and refresh and call them using the javascript pseudo protocol -->
+
 </body>
 </html>
